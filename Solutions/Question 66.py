@@ -15,9 +15,14 @@
 #
 # Solution:
 
-n = int(input('Enter value of N: '))
-total = 0
-for i in range(1,n + 1):
-    total = float(i)/(i+1) + total
+def fib(x):
+    a, b = 0, 1
+    for i in range(x):
+        yield a
+        a, b = b, a + b
 
-print(f'Value is {total:.2f}')
+
+
+y = fib(50)
+for k in y:
+    print(k)
