@@ -3,7 +3,7 @@
 # where subject is in ["I", "You"] and verb is in ["Play", "Love"]
 # and the object is in ["Hockey","Football"].
 #
-# Hints: Use list[index] notation to get a element from a list.
+# Hints: Use list[index] notation to get an element from a list.
 #
 # Solution:
 
