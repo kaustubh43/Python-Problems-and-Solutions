@@ -43,5 +43,4 @@ for i in range(0, len(step), 2):
 print('current coordinates are', current)
 travel = sqrt(current[0]**2+current[1]**2)
 
-print(f'Distance travelled by robot is {(travel)}')
-
+print(f'Distance travelled by robot is {round(travel)}')
